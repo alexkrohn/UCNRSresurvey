@@ -52,6 +52,6 @@ for (i in 1:nrow(max.dates)) {
 reptiles <- filter(most.recent.occurrences, class == "Reptilia")
 
 
-print(data.frame(ScientificName = reptiles$scientificName, BasisofRecord = reptiles$basisOfRecord, DatasetName = reptiles$datasetName, InstitutionCode = reptiles$institutionID, Link = paste("https://gbif.org/occurence/",reptiles$gbifID, sep="")))
+print(data.frame(ScientificName = reptiles$scientificName, BasisofRecord = reptiles$basisOfRecord, DatasetName = reptiles$datasetName, InstitutionCode = reptiles$institutionID, Link = paste("https://gbif.org/occurrence/",reptiles$gbifID, sep="")))
 
       
